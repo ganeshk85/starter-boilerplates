@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains overrides for vendor specific variables
+// -----------------------------------------------------------------------------
+//provide the path to font-awesome node modules fonts folder
+$fa-font-path: '~font-awesome/fonts';
+
+//bootstrap icon fonts
+//$icon-font-path: "/fonts/";
+
+$theme-colors: (
+  "primary": #981e32,
+);

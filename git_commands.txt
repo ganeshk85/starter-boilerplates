@@ -1,0 +1,24 @@
+### Git Local Commands
+
+git status 
+git add . 
+git commit -m "any comment" 
+git status 
+git push production master:production 
+git push remote-name local-branch-name:remote-branch-name 
+git remote show origin - shows all the rmote info
+
+To delete remote branch
+git push remote-name --delete branch-name
+
+To ignore files after .gitignore file has been created and committed.
+1. Add the file in your .gitignore.
+2. Run the following: git rm --cached <file> (warning: the file also gets deleted from the remote repository and local repository)
+3. Commit the removal of the file and the updated .gitignore to your repo.
+
+To list the conflicts while merging
+git diff --name-only --diff-filter=U
+
+If you are trying to ignore changes to a file that's already tracked in the repository 
+e.g. a dev.properties file that you would need to change for your local environment but you would never want to check in these changes
+git update-index --assume-unchanged <file>

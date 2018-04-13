@@ -1,0 +1,49 @@
+[Click here for the official documentation](http://laravel-boilerplate.com)
+
+To install
+
+1. composer install
+
+2. npm install
+
+3. copy and paste .env file from github
+
+4. edit .env file to add database host, port, databasename, username and password
+
+5. create database called "cportal"
+
+6. php artisan key:generate
+
+7. php artisan migrate
+
+8. php artisan db:seed
+
+9. npm run dev
+
+10. npm run watch
+
+
+
+
+### Git Local Commands
+
+
+
+git status <br/>
+
+git add . <br/>
+
+git commit -m "any comment" <br/>
+
+git status <br/>
+
+git push production master:production <br/>
+
+git push remote-name local-branch-name:remote-branch-name <br/>
+
+git remote show origin - shows all the rmote info<br/><br/>
+
+
+To delete remote branch<br/>
+
+git push remote-name --delete branch-name
